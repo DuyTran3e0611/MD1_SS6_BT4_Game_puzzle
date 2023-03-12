@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="css_game_puzzle.css">
+</head>
+<body>
+
+<div id="picture1" onclick="changeDisplay()">
+    <img onclick="changeDisplay()" class="image1" src="image/anh1.jpg">
+    <img onclick="changeDisplay()" class="image1" src="image/anh1-1.jpg">
+</div>
+
+<div>
+    <img class="image2" src="image/anh2.jpg">
+    <img class="image2" src="image/anh2-1.jpg">
+</div>
+
+<div>
+    <img class="image3" src="image/anh3.jpg">
+    <img class="image3" src="image/anh3-1.jpg">
+</div>
+
+<script>
+function changeDisplay(){
+    let img1 = document.getElementById('picture1');
+    let count1 = 0;
+    if (count1 == 0){
+        img1.src = 'image/anh1.jpg';
+    }else if (count1 == 1){
+        img1.src = 'image/anh1-1.jpg';
+    }
+    console.log('count 1-->', count1);
+
+}
+
+</script>
+
+</body>
+</html>

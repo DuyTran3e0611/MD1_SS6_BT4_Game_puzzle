@@ -1,0 +1,21 @@
+.image1{
+    width: 600px;
+    height: 200px;
+    position: fixed;
+    top: 5px;
+    left: 5px;
+}
+.image2{
+    width: 600px;
+    height: 200px;
+    position: fixed;
+    top: 210px;
+    left: 5px;
+}
+.image3{
+    width: 600px;
+    height: 200px;
+    position: fixed;
+    top: 415px;
+    left: 5px;
+}
